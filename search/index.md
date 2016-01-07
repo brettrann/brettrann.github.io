@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Search"
-date: 
+title:
+date:
 modified:
 excerpt:
 image:
