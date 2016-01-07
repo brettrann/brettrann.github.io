@@ -10,7 +10,7 @@ image:
 date: 2016-01-07T19:36:02+11:00
 ---
 
-[so-simple-theme]: https://github.com/mmistakes/so-simple-theme
+Playing around with the [So Simple][so-simple-theme] theme.
 
 ### Code Hightlighting
 
@@ -19,3 +19,5 @@ def hello(message)
   puts message
 end
 {% endhighlight %}
+
+[so-simple-theme]: https://github.com/mmistakes/so-simple-theme
