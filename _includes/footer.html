@@ -16,3 +16,8 @@
   <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-3x"></i></a>
 </div><!-- /.social-icons -->
 <!-- <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>, using an adapted <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a> theme.</span> -->
+{% if page.url != "/index.html" and page.url != "/" %}
+<div class="footer-info">
+  <a href="{{domain}}/info"><i class="fa fa-info-circle"></i></a>
+</div>
+{% endif %}
