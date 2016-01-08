@@ -12,7 +12,7 @@
     margin: 0 0 50px;
     padding: 4px 20px;
     background-color: $black;
-    @include media($medium) {
+    @include media($small) {
       width: auto;
       @include rounded(0 0 10px 10px);
     }
@@ -26,7 +26,7 @@
     @include font-size(24,no);
     text-transform: uppercase;
     color: $white;
-    @include media($medium) {
+    @include media($small) {
       @include font-size(14,no);
     }
     a:hover {
@@ -37,7 +37,7 @@
     display: block;
     margin-bottom: 10px;
     padding: 12px 20px;
-    @include media($medium) {
+    @include media($small) {
       margin-bottom: 0;
       padding: 6px 10px;
     }
@@ -56,14 +56,14 @@
 #site-nav {
   display: none;
   z-index: 5;
-  @include media($medium) {
+  @include media($small) {
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
     -o-animation-duration: 1s;
     animation-duration: 1s;
   }
   &.closed {
-    @include media($medium) {
+    @include media($small) {
       display: block;
     }
   }
@@ -72,7 +72,7 @@
     max-height: 100%;
     li {
       float: none;
-      @include media($medium) {
+      @include media($small) {
         float: left;
       }
     }
@@ -93,7 +93,7 @@
   background-color: $black;
   height: 44px;
   @include rounded(0);
-  @include media($medium) {
+  @include media($small) {
     display: none;
   }
 }
