@@ -9,7 +9,7 @@
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    margin: 0 0 50px;
+    margin: 0 0 20px;
     padding: 4px 20px;
     background-color: $black;
     @include media($small) {
@@ -23,7 +23,7 @@
     float: left;
     list-style: none;
     text-align: center;
-    @include font-size(24,no);
+    @include font-size(18,no);
     text-transform: uppercase;
     color: $white;
     @include media($small) {
