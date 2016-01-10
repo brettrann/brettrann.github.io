@@ -53,7 +53,7 @@ You can bind it to an F key:
 :map <F5> :setlocal spell spelllang=en_us
 {% endhighlight %}
 
-You can add a word to a local dictionary using 'zg when over a highlighted word:
+You can add a word to a local dictionary using 'zg' when over a highlighted word:
 
 {% highlight vim %}
 Word 'Jekyll' added to ~/.vim/spell/en.utf-8.add
